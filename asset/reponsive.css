@@ -1,0 +1,30 @@
+@media (max-width: 736px) {
+    .container,
+    .panel {
+        position: relative;
+        width: 100%;
+        flex-direction: column;
+        top: initial;
+    }
+}
+
+@media (max-width: 500px) {
+    body {
+        font-size: 12px;
+    }
+    .container,
+    .panel {
+        top: 5%;
+    }
+}
+
+@media (max-width: 320px) {
+    .container,
+    .panel {
+        width: 100%;
+        overflow: hidden;
+    }
+    .container>.content {
+        width: 90%;
+    }
+}
